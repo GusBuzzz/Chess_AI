@@ -10,7 +10,7 @@ import com.chess.engine.board.Move;
 import com.chess.engine.board.Tile;
 import com.chess.engine.pieces.Piece;
 import com.chess.engine.player.MoveTransition;
-import com.chess.engine.player.ai.MiniMax;
+//import com.chess.engine.player.ai.MiniMax;
 import com.chess.engine.player.ai.MoveStrategy;
 import com.google.common.collect.Lists;
 
@@ -224,9 +224,10 @@ public class Table extends Observable {
 
         @Override
         protected Move doInBackground() throws Exception {
-            final MoveStrategy miniMax = new MiniMax(Table.get().getGameSetup().getSearchDepth()); // Make a variable that allows you the change the depth search
-            final Move bestMove = miniMax.execute(Table.get().getGameBoard());
-            return bestMove;
+            //final MoveStrategy miniMax = new MiniMax(Table.get().getGameSetup().getSearchDepth()); // Make a variable that allows you the change the depth search
+            //final Move bestMove = miniMax.execute(Table.get().getGameBoard());
+            //return bestMove;
+            return null;
         }
 
         @Override
