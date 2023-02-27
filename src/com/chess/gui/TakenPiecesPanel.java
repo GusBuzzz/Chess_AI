@@ -1,4 +1,7 @@
-package com.chess.gui;
+/*
+Author: Gustavo Rubio (Vice President of Association for Computing Machinery)
+Created: 1/2/23
+ */package com.chess.gui;
 
 import com.chess.engine.board.Move;
 import com.chess.engine.pieces.Piece;

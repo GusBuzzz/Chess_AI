@@ -1,5 +1,9 @@
-package com.chess.engine.board;
+/*
+Author: Gustavo Rubio (Vice President of Association for Computing Machinery)
+Created: 1/2/23
+ */
 
+package com.chess.engine.board;
 
 
 import java.util.*;

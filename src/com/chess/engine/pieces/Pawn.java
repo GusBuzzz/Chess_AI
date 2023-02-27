@@ -1,3 +1,8 @@
+/*
+Author: Gustavo Rubio (Vice President of Association for Computing Machinery)
+Created: 1/2/23
+ */
+
 package com.chess.engine.pieces;
 
 import com.chess.engine.Alliance;
